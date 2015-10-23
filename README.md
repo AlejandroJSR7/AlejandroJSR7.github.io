@@ -1,2 +1,2 @@
 # portfolio
-Quality user experience through responsive web design and performant front-end development.
+Quality user experience through responsive web design and front-end development.
