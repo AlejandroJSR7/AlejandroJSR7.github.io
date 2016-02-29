@@ -48,31 +48,31 @@
   </div><!--modal-->
 </section><!--/contact-->
   <div class="general-container">
-    <header>
+    <!-- 
+<header>
   <div class="content-big">
+    <nav class="main-navigation">
+      <ul>
+        <li class="nav-item"><a class="active" href="#about-me">Sobre mi</a></li>
+        <li class="nav-item"><a class="" href="#skills">Conocimientos</a></li>
+        <li class="nav-item"><a class="" href="#portfolio">Portafolio</a></li>
+        <li class="nav-item nav-item_contact"><a class="js-openModalContact fa fa-phone" href="#animatedModal"></a></li>
+      </ul>
+    </nav>
+  </div>
+</header> -->
+    <section class="hero">
+  <div class="welcome">
     <div class="title-web">
       <h1>
         Alejandro Sosa
         <strong>Front end web developer</strong>
       </h1>
     </div><!--/title-web-->
-    <nav class="main-navigation">
-      <ul>
-        <li class="nav-item"><a href="#about-me">Sobre mi</a></li>
-        <li class="nav-item"><a href="#skills">Conocimientos</a></li>
-        <li class="nav-item"><a href="#portfolio">Portafolio</a></li>
-        <li class="nav-item nav-item_contact"><a id="demo01" class="fa fa-phone" href="#animatedModal"></a></li>
-      </ul>
-    </nav>
-  </div><!--/content-big-->
-</header>
-    <section class="section-slider">
-  <div class="image-slider">
-    <img src="images/design/hero-banner/hero-banner.jpeg" alt="Alejandro Sosa Portfolio, Banner Image">
   </div><!--/image-slider-->
 </section><!--/section-slider-->
     <div class="main">
-      <section>
+      <section id="js-anchorAboutMe">
   <div class="content-big">
     <h3 name="about-me">Sobre mi.</h3>
     <div class="content-medium">
@@ -129,21 +129,21 @@
   <div class="content-big">
     <h3 name="portfolio">Portafolio</h3>
     <div class="content-medium">
-      <p>
+      <p class="push-bottom--double">
         Este portafolio reune la mayoría de proyectos trabajados, proyectos desarrollados solo o en equipo partiendo de un diseño en Adobe Photoshop o Adobe Illustrator, HTML, CSS, jQuery, Javascript, Drupal, Wordpress, Gulp, Sass, Git, y algunos lenguajes o conocimientos se han desarrollado o aprendido en cada proyecto.
       </p>
 
       <article>
         <div class="project">
           <h2>StudioDev</h2>
-          <a href="http://www.makeitreal.camp/u/AlejandroSosa"><h4>Make It Real</h4></a>
+          <h4><a href="http://www.makeitreal.camp/u/AlejandroSosa">Make It Real</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/studiodev.png" alt="StudioDev">
+              <a href="http://alejandrojsr7.github.io/studiodev/" target="_blank" class="link-description"><img src="images/content/portfolio/studiodev.png" alt="StudioDev"></a>
             </div><!--/image-project-->
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="http://alejandrojsr7.github.io/studiodev/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p><!--/description-project-->
           </div><!--/image-description-->
         </div><!--/project-->
@@ -152,14 +152,14 @@
       <article>
         <div class="project">
           <h2>Jaguar XE</h2>
-          <a href="http://www.makeitreal.camp/u/AlejandroSosa"><h4>Make It Real</h4></a>
+          <h4><a href="http://www.makeitreal.camp/u/AlejandroSosa">Make It Real</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/jaguar-xe.png" alt="Jaguar XE">
+              <a href="http://alejandrojsr7.github.io/jaguar-xe/" target="_blank" class="link-description"><img src="images/content/portfolio/jaguar-xe.png" alt="Jaguar XE"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="http://alejandrojsr7.github.io/jaguar-xe/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -168,14 +168,14 @@
       <article>
         <div class="project">
           <h2>E-Commerce</h2>
-          <a href="http://www.makeitreal.camp/u/AlejandroSosa"><h4>Make It Real</h4></a>
+          <h4><a href="http://www.makeitreal.camp/u/AlejandroSosa">Make It Real</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/e-commerce.png" alt="E-Commerce">
+              <a href="http://alejandrojsr7.github.io/e-commerce/" target="_blank" class="link-description"><img src="images/content/portfolio/e-commerce.png" alt="E-Commerce"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="http://alejandrojsr7.github.io/e-commerce/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -184,14 +184,14 @@
       <article>
         <div class="project">
           <h2>PickUp Drivers</h2>
-          <a href="http://barista-v.com/"><h4>Barista Ventures</h4></a>
+          <h4><a href="http://barista-v.com/">Barista Ventures</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/pickup-drivers.png" alt="PickUp Drivers">
+              <a href="https://angel.co/pickup-2" target="_blank" class="link-description"><img src="images/content/portfolio/pickup-drivers.png" alt="PickUp Drivers"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="https://angel.co/pickup-2" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -200,14 +200,14 @@
       <article>
         <div class="project">
           <h2>Wapa stylists</h2>
-          <a href="http://barista-v.com/"><h4>Barista Ventures</h4></a>
+          <h4><a href="http://barista-v.com/">Barista Ventures</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/wapa-stylists.png" alt="Wapa stylists">
+              <a href="https://angel.co/wapa-1" target="_blank" class="link-description"><img src="images/content/portfolio/wapa-stylists.png" alt="Wapa stylists"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="https://angel.co/wapa-1" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -216,14 +216,14 @@
       <article>
         <div class="project">
           <h2>Crowdfunding</h2>
-          <a href="http://barista-v.com/"><h4>Barista Ventures</h4></a>
+          <h4><a href="http://barista-v.com/">Barista Ventures</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/crowdfunding.png" alt="Crowdfunding">
+              <a href="http://cf-webtalk.herokuapp.com/" target="_blank" class="link-description"><img src="images/content/portfolio/crowdfunding.png" alt="Crowdfunding"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="http://cf-webtalk.herokuapp.com/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -232,14 +232,14 @@
       <article>
         <div class="project">
           <h2>SocialCPX</h2>
-          <a href="http://barista-v.com/"><h4>Barista Ventures</h4></a>
+          <h4><a href="http://barista-v.com/">Barista Ventures</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/socialcpx.png" alt="SocialCPX">
+              <a href="http://webtalk-socialcpx.herokuapp.com/" target="_blank" class="link-description"><img src="images/content/portfolio/socialcpx.png" alt="SocialCPX"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="http://webtalk-socialcpx.herokuapp.com/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -248,14 +248,14 @@
       <article>
         <div class="project">
           <h2>Webtalk</h2>
-          <a href="http://barista-v.com/"><h4>Barista Ventures</h4></a>
+          <h4><a href="http://barista-v.com/">Barista Ventures</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/webtalk.png" alt="Webtalk">
+              <a href="http://webtalk-st.herokuapp.com/" target="_blank" class="link-description"><img src="images/content/portfolio/webtalk.png" alt="Webtalk"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
-              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description">Ir al sitio web.</a>
+              <a href="http://webtalk-st.herokuapp.com/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p>
           </div>
         </div>
@@ -264,10 +264,10 @@
       <article>
         <div class="project">
           <h2>Digicel</h2>
-          <a href="http://xumak.com/site/en.html"><h4>XumaK</h4></a>
+          <h4><a href="http://xumak.com/site/en.html">XumaK</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/digicel.png" alt="Digicel">
+              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description"><img src="images/content/portfolio/digicel.png" alt="Digicel"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -279,11 +279,11 @@
 
       <article>
         <div class="project">
-          <h2>GHL HOTELES</h2>
-          <a href="http://notthesame.co/"><h4>Not the same</h4></a>
+          <h2>GHL HOTELES <small>(old website)</small></h2>
+          <h4><a href="http://notthesame.co/">Not the same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/ghl.png" alt="GHL Hotels">
+              <a href="http://www.ghlhoteles.com/" target="_blank" class="link-description"><img src="images/content/portfolio/ghl.png" alt="GHL Hotels"></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -295,10 +295,10 @@
       <article>
         <div class="project">
           <h2>Tigo Business</h2>
-          <a href="http://www.bitsamericas.com/"><h4>Bits Americas</h4></a>
+          <h4><a href="http://www.bitsamericas.com/">Bits Americas</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/2.png" alt="">
+              <a href="http://www.tigo.com.co/tigo-business" target="_blank" class="link-description"><img src="images/content/portfolio/2.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé en su desarrollo a partir de diseño. Manejo de: Drupal, Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -310,10 +310,10 @@
       <article>
         <div class="project">
           <h2>Thunder Theme</h2>
-          <a href="javascript:;"><h4>Alejandro JSR7</h4></a>
+          <h4><a href="javascript:;">Alejandro JSR7</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/3.png" alt="">
+              <a href="pages/thunder/" target="_blank" class="link-description"><img src="images/content/portfolio/3.png" alt=""></a>
             </div>
             <p class="description-project">
               Un proyecto de prueba para <a href="http://xumak.com/">XumaK</a>. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -325,10 +325,10 @@
       <article>
         <div class="project">
           <h2>Medium</h2>
-          <a href="javascript:;"><h4>Alejandro JSR7</h4></a>
+          <h4><a href="javascript:;">Alejandro JSR7</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/4.png" alt="">
+              <a href="pages/medium/" target="_blank" class="link-description"><img src="images/content/portfolio/4.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -340,10 +340,10 @@
       <article>
         <div class="project">
           <h2>Easy Driver</h2>
-          <a href="javascript:;"><h4>Alejandro JSR7</h4></a>
+          <h4><a href="javascript:;">Alejandro JSR7</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/5.png" alt="">
+              <a href="javascript:;" target="_blank" class="link-description"><img src="images/content/portfolio/5.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -355,10 +355,10 @@
       <article>
         <div class="project">
           <h2>Tigo Star</h2>
-          <a href="http://www.bitsamericas.com/"><h4>Bits Americas</h4></a>
+          <h4><a href="http://www.bitsamericas.com/">Bits Americas</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/6.png" alt="">
+              <a href="http://www.tigostar.com.gt/" target="_blank" class="link-description"><img src="images/content/portfolio/6.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé en su desarrollo a partir de diseño. Manejo de: Drupal, Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -370,10 +370,10 @@
       <article>
         <div class="project">
           <h2>Santa Reyes</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/7.png" alt="">
+              <a href="http://www.santareyes.com.co/" target="_blank" class="link-description"><img src="images/content/portfolio/7.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Html, Css, jQuery, Javascript.
@@ -385,10 +385,10 @@
       <article>
         <div class="project">
           <h2>Hotel San Rafael</h2>
-          <a href="javascript:;"><h4>Alejandro JSR7</h4></a>
+          <h4><a href="javascript:;">Alejandro JSR7</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/8.png" alt="">
+              <a href="javascript:;" target="_blank" class="link-description"><img src="images/content/portfolio/8.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -400,10 +400,10 @@
       <article>
         <div class="project">
           <h2>Rodrigo Alban</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/9.png" alt="">
+              <a href="http://rodrigoalbanhubach.com/" target="_blank" class="link-description"><img src="images/content/portfolio/9.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -415,10 +415,10 @@
       <article>
         <div class="project">
           <h2>Palmarito Fundación Casanare</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/10.png" alt="">
+              <a href="http://fundacionpalmaritocasanare.org/" target="_blank" class="link-description"><img src="images/content/portfolio/10.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -430,10 +430,10 @@
       <article>
         <div class="project">
           <h2>Patrulla Aérea Civil Colombiana</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/11.png" alt="">
+              <a href="http://patrullaaerea.org/" target="_blank" class="link-description"><img src="images/content/portfolio/11.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -445,10 +445,10 @@
       <article>
         <div class="project">
           <h2>My Star Language</h2>
-          <a href="https://vimeo.com/movink"><h4>Movink</h4></a>
+          <h4><a href="https://vimeo.com/movink">Movink</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/12.png" alt="">
+              <a href="http://www.mystarlanguage.com/" target="_blank" class="link-description"><img src="images/content/portfolio/12.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -460,10 +460,10 @@
       <article>
         <div class="project">
           <h2>Lianna Music</h2>
-          <a href="https://vimeo.com/movink"><h4>Movink</h4></a>
+          <h4><a href="https://vimeo.com/movink">Movink</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/13.png" alt="">
+              <a href="http://www.liannamusic.com/" target="_blank" class="link-description"><img src="images/content/portfolio/13.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -475,10 +475,10 @@
       <article>
         <div class="project">
           <h2>La Otra Esquina</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/14.png" alt="">
+              <a href="http://www.laotraesquina.co/" target="_blank" class="link-description"><img src="images/content/portfolio/14.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -490,10 +490,10 @@
       <article>
         <div class="project">
           <h2>Kico</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/15.png" alt="">
+              <a href="http://www.kicocolombia.com/" target="_blank" class="link-description"><img src="images/content/portfolio/15.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -505,10 +505,10 @@
       <article>
         <div class="project">
           <h2>Hermanos Rausch</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/16.png" alt="">
+              <a href="http://www.hermanosrausch.com/home.html" target="_blank" class="link-description"><img src="images/content/portfolio/16.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -520,10 +520,10 @@
       <article>
         <div class="project">
           <h2>Gut Medica</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/17.png" alt="">
+              <a href="http://www.gutmedica.com/" target="_blank" class="link-description"><img src="images/content/portfolio/17.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -535,10 +535,10 @@
       <article>
         <div class="project">
           <h2>Construrama</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/18.png" alt="">
+              <a href="http://www.construramacolombia.com/" target="_blank" class="link-description"><img src="images/content/portfolio/18.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -550,10 +550,10 @@
       <article>
         <div class="project">
           <h2>Click Clack Hotels</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/19.png" alt="">
+              <a href="http://www.clickclackhotel.com/" target="_blank" class="link-description"><img src="images/content/portfolio/19.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -565,10 +565,10 @@
       <article>
         <div class="project">
           <h2>Asofiduciarias</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/20.png" alt="">
+              <a href="http://www.asofiduciarias.org.co/" target="_blank" class="link-description"><img src="images/content/portfolio/20.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -580,10 +580,10 @@
       <article>
         <div class="project">
           <h2>Acid Ink Tattoo Art</h2>
-          <a href="https://vimeo.com/movink"><h4>Movink</h4></a>
+          <h4><a href="https://vimeo.com/movink">Movink</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/21.png" alt="">
+              <a href="http://www.acidinktattooart.com/" target="_blank" class="link-description"><img src="images/content/portfolio/21.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -595,10 +595,10 @@
       <article>
         <div class="project">
           <h2>Academia Verde Oliva</h2>
-          <a href="http://notthesame.co/"><h4>Not The Same</h4></a>
+          <h4><a href="http://notthesame.co/">Not The Same</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/22.png" alt="">
+              <a href="http://www.academiaverdeoliva.com/" target="_blank" class="link-description"><img src="images/content/portfolio/22.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -610,10 +610,10 @@
       <article>
         <div class="project">
           <h2>Ciudades y cambio climatico</h2>
-          <a href="http://soplo-digital.com"><h4>sOplo Digital</h4></a>
+          <h4><a href="http://soplo-digital.com">sOplo Digital</a></h4>
           <div class="image-and-description">
             <div class="image-project">
-              <img src="images/content/portfolio/23.png" alt="">
+              <a href="http://www.ciudadesycambioclimatico.org/" target="_blank" class="link-description"><img src="images/content/portfolio/23.png" alt=""></a>
             </div>
             <p class="description-project">
               En el proyecto participé desde su desarrollo a partir de diseño. Manejo de: Photoshop, Git, Html, Css, jQuery, Javascript.
@@ -627,6 +627,8 @@
 </section>
     </div><!--/main-->
     <a href="#" class="scrollToTop fa fa-hand-o-up"></a>
+    <a href="#animatedModal" class="js-openModalContact contact-icon fa fa-phone-square"></a>
+    <a href="#js-anchorAboutMe" class="scrollDown fa fa-angle-double-down"></a>
   </div><!--/generalContainer-->
   <script src="js/jquery.min.js"></script>
   <script src="js/animatedModal.min.js"></script>

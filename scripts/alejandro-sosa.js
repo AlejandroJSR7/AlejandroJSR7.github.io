@@ -1,1 +1,1 @@
-$("#demo01").animatedModal();
+$(".js-openModalContact").animatedModal();

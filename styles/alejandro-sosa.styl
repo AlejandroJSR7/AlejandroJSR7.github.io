@@ -19,6 +19,10 @@
   $red = #ff5d55
   $black = #000000
 
+//Helpers
+  .push-bottom--double
+    margin-bottom 40px
+
 //global
   html
     font-size 62.5%
@@ -56,36 +60,21 @@
 header
   background rgba(0,0,0,0.8)
   box-sizing border-box
-  height 7rem
+  height 5rem
   position fixed
   width 100%
   z-index 9997
-  .title-web
-    display inline-block
-    width 40%
-    h1
-      color white
-      display inline-block
-      font-size 3.6rem
-      font-weight 400
-      line-height 1em
-      margin 1rem 0 0
-      strong
-        display block
-        font-size 1.6rem
-        font-weight 400
-        line-height 1em
-        text-align right
   .main-navigation
     display inline-block
-    margin-top 1.5rem
+    margin-top .5rem
     vertical-align top
-    width 59%
+    width 100%
     ul
       list-style none
-      margin 0
+      margin 0 auto
       padding 0
-      text-align right
+      text-align center
+      width 100%
       li.nav-item
         display inline-block
         font-size 1.6rem
@@ -130,41 +119,68 @@ header
           width 100%
         li.nav-item_contact
           font-size 3rem
-
-  @media (min-width: 769px) and (max-width: 800px)
-  /*header*/
-    .title-web
-      h1
-        font-size 3.8rem
-        margin-top 3.3rem
-  @media (min-width: 801px) and (max-width: 980px)
-  /*header*/
-    .title-web
-      h1
-        font-size 3.8rem
-        margin-top 3.3rem
     
 //end-header
 
 //slider
 
-.section-slider
+.hero
+  background-image url('../images/design/hero-banner/hero-banner.jpeg')
+  background-repeat no-repeat
+  background-attachment fixed
+  background-size cover
   height 100vh
   overflow hidden
   margin-bottom 20px
-  .image-slider
-    text-align center
+  .welcome
+    left 50%
+    margin 0
     overflow hidden
+    position absolute
+    text-align center
+    top 50%
+    transform translate(-50%, -50%)
+    width 60%
+    .title-web
+      display inline-block
+      width 100%
+      h1
+        color white
+        display inline-block
+        font-size 10rem
+        font-weight 400
+        line-height 1em
+        margin 1rem 0 0
+        strong
+          display block
+          font-size 2.6rem
+          font-weight 400
+          line-height 1em
+          text-align right
   @media (max-width: 360px)
   /*slider*/
-    .image-slider
+    .welcome
       img
         height 150px
         margin-left -50%
+  @media (min-width: 769px) and (max-width: 800px)
+  /*hero*/
+    .title-web
+      h1
+        font-size 3.8rem
+        margin-top 3.3rem
+  @media (min-width: 801px) and (max-width: 980px)
+  /*hero*/
+    .title-web
+      h1
+        font-size 3.8rem
+        margin-top 3.3rem
 //end-slider
 
 //main
 .main
+  section
+    padding-top 50px
   article
     margin-bottom 30px
   h3
@@ -268,15 +284,19 @@ header
     line-height 1em
     margin 0 0 .5rem
     text-transform uppercase
+    small
+      font-size 1rem
   h4
     font-size 1.6rem
     font-style italic
     font-weight 300
     line-height 1em
     margin 0 0 1rem
+    a
+      color $black
   .image-and-description
     .image-project
-      background $blue
+      background $green
       border-radius 0.5rem
       box-sizing border-box
       display inline-block
@@ -359,10 +379,10 @@ header
 
 //Scroll-up
 .scrollToTop{
-  bottom 8%
+  bottom 10px
   color $red
   display none
-  font-size 5rem
+  font-size 4rem
   line-height 1.1em
   position fixed
   right 50px
@@ -376,7 +396,45 @@ header
 }
 //END-Scroll-up
 
+.scrollDown{
+  bottom 70px
+  color $black
+  font-size 4rem
+  left 50%
+  line-height 1.1em
+  position absolute
+  text-align center
+  transform translateX(-50%)
+  vertical-align top
+  z-index 500
+  &:hover{
+    text-decoration none
+  }
+  &:visited{
+    color $red
+  }
+}
+
 //contact
+
+
+.contact-icon{
+  bottom 70px
+  color $red
+  font-size 4rem
+  line-height 1.1em
+  position fixed
+  right 50px
+  text-align center
+  vertical-align top
+  z-index 500
+  &:hover{
+    text-decoration none
+  }
+  &:visited{
+    color $red
+  }
+}
 
 .container-contact
   background rgba(0, 0, 0, 0.5)
