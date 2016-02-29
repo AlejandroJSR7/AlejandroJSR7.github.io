@@ -18,7 +18,7 @@ gulp.task('htmlIncluder', function(){
 gulp.task('stylus2css', function(){
   gulp.src('styles/alejandro-sosa.styl')
       .pipe(plumber())
-      .pipe(stylus({ compress: true }))
+      .pipe(stylus({ compress: false }))
       .pipe(gulp.dest('dist/css/'))
       .pipe(livereload());
 });
@@ -27,7 +27,7 @@ gulp.task('pluginsjs', function(){
   gulp.src('scripts/**/*.js')
       .pipe(plumber())
       .pipe(concat('alejandro-sosa.js'))
-      .pipe(uglify())
+//      .pipe(uglify())
       .pipe(gulp.dest('dist/js'))
       .pipe(livereload());
 });
