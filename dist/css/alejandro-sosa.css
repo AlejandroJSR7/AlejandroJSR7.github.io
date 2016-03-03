@@ -447,13 +447,24 @@ ol {
   height: 155px;
   margin-right: 11rem;
   padding-top: 7px;
-  transition: opacity linear 0.2s;
+  position: relative;
   text-align: center;
+  transition: opacity linear 0.2s;
   width: 290px;
-img
 }
 .project .image-and-description .image-project:hover {
   opacity: 0.9;
+}
+.project .image-and-description .image-project .icon-user {
+  background: #fff;
+  border-radius: 2px;
+  font-size: 1.8rem;
+  right: 8px;
+  color: #1e5799;
+  line-height: 1;
+  padding: 2px 5px;
+  position: absolute;
+  top: 10px;
 }
 .project .image-and-description .description-project {
   display: inline-block;

@@ -20,6 +20,7 @@
 //Variables
   $green = #92d36e
   $blue = #4dd7fd
+  $blue-dark = #1E5799
   $orange = #f8b500
   $red = #ff5d55
   $black = #000000
@@ -260,12 +261,23 @@
       height 155px
       margin-right 11rem
       padding-top 7px
-      transition opacity linear .2s
+      position relative
       text-align center
+      transition opacity linear .2s
       width 290px
       &:hover
         opacity 0.9
-      img
+      .icon-user{
+        background white
+        border-radius 2px
+        font-size 1.8rem
+        right 8px
+        color $blue-dark
+        line-height 1
+        padding 2px 5px
+        position absolute
+        top 10px
+      }
     .description-project
       display inline-block
       margin 0px
