@@ -6,7 +6,8 @@ var gulp       = require( 'gulp' ),
     http       = require( 'http' ),             // Server http
     connect    = require( 'gulp-connect' ),     // Server static
     livereload = require( 'gulp-livereload' ),  // Syng with browser
-    includer   = require( 'gulp-htmlincluder' ) // Html Includer (Code or components)
+    includer   = require( 'gulp-htmlincluder' ), // Html Includer (Code or components)
+    image      = require('gulp-image')
 ;
 
 gulp.task('htmlIncluder', function(){
@@ -32,6 +33,13 @@ gulp.task('pluginsjs', function(){
       .pipe(livereload());
 });
 
+gulp.task('image', function () {
+  gulp.src('./images/**')
+    .pipe(image())
+    .pipe(gulp.dest('./dist/images/'))
+    .pipe(livereload());
+});
+
 gulp.task('connectServer', function(){
   connect.server({
     root: 'dist',
@@ -53,4 +61,4 @@ gulp.task('watch', function(){
   gulp.watch('scripts/**/*.js', ['pluginsjs']);
 });
 
-gulp.task('default', [ 'htmlIncluder', 'stylus2css', 'pluginsjs', 'connectServer', 'watch']);
+gulp.task('default', [ 'htmlIncluder', 'stylus2css', 'pluginsjs', 'image', 'connectServer', 'watch']);
