@@ -447,23 +447,17 @@ ol {
   height: 155px;
   margin-right: 11rem;
   padding-top: 7px;
-<<<<<<< HEAD
-  transition: opacity linear 0.2s;
-  text-align: center;
-  width: 290px;
-img
-=======
   position: relative;
   text-align: center;
   transition: opacity linear 0.2s;
   width: 290px;
->>>>>>> master
 }
 .project .image-and-description .image-project:hover {
   opacity: 0.9;
 }
-<<<<<<< HEAD
-=======
+.project .image-and-description .image-project a {
+  display: block;
+}
 .project .image-and-description .image-project .icon-user {
   background: #fff;
   border-radius: 2px;
@@ -475,7 +469,6 @@ img
   position: absolute;
   top: 10px;
 }
->>>>>>> master
 .project .image-and-description .description-project {
   display: inline-block;
   margin: 0px;
@@ -676,14 +669,19 @@ img
 .container-contact {
   background: rgba(0,0,0,0.5);
   box-sizing: border-box;
+  display: none;
   font-family: 'Open Sans';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
 }
 .container-contact.modalActive {
   display: block;
 }
 .container-contact_modal {
   background: #000;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 2px 2px;
   font-size: 2.4rem;
   left: calc(50% - 355px);
   position: absolute;
@@ -692,8 +690,8 @@ img
 }
 .container-contact_modal_header {
   background: #ff5d55;
-  box-sizing: border-box;
   border-radius: 5px 5px 0 0;
+  box-sizing: border-box;
   padding: 2rem 2.5rem;
   position: relative;
 }
@@ -711,6 +709,7 @@ img
   position: absolute;
   right: 1rem;
   top: 1rem;
+  z-index: 10000;
 }
 .container-contact_modal_info {
   padding: 3rem 1rem;
@@ -742,10 +741,10 @@ img
   .container-contact .container-contact_modal {
     font-size: 1.6rem;
     left: 0;
-    top: 5%;
-    width: 90%;
     margin: 0 auto;
     position: relative;
+    top: 5%;
+    width: 90%;
   }
   .container-contact .container-contact_modal .container-contact_modal_header h2 {
     text-align: center;
@@ -768,10 +767,10 @@ img
   .container-contact .container-contact_modal {
     font-size: 1.6rem;
     left: 0;
-    top: 5%;
-    width: 90%;
     margin: 0 auto;
     position: relative;
+    top: 5%;
+    width: 90%;
   }
   .container-contact .container-contact_modal .container-contact_modal_header h2 {
     text-align: center;
@@ -788,10 +787,10 @@ img
   .container-contact .container-contact_modal {
     font-size: 1.6rem;
     left: 0;
-    top: 5%;
-    width: 90%;
     margin: 0 auto;
     position: relative;
+    top: 5%;
+    width: 90%;
   }
   .container-contact .container-contact_modal .container-contact_modal_header h2 {
     text-align: center;
@@ -814,10 +813,10 @@ img
   .container-contact .container-contact_modal {
     font-size: 1.6rem;
     left: 0;
-    top: 5%;
-    width: 90%;
     margin: 0 auto;
     position: relative;
+    top: 5%;
+    width: 90%;
   }
   .container-contact .container-contact_modal .container-contact_modal_header h2 {
     text-align: center;
