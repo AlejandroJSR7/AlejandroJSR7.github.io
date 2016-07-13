@@ -237,7 +237,7 @@ ol {
   width: 85%;
 }
 .hero {
-  background-image: url("../images/design/hero-banner/hero-banner.jpeg");
+  background-image: url("https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=1&auto=format&crop=entropy&fit=crop&w=1280&h=853&q=80");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
