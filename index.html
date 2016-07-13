@@ -3,22 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Alejandro Sosa front end web developer - NO OTHER NAME </title>
+  <title>Alejandro Sosa | front end web developer</title>
   <link rel="icon" type="image/x-icon" href="images/design/icons/favicon/favicon.ico">
   <link rel="mask-icon" href="images/design/icons/favicon/pinned-octocat.svg" color="#4078c0">
 
-  <link href='fonts/*.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,600italic,300italic' rel='stylesheet' type='text/css'>
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.min.css" rel="stylesheet" type="text/css">
   <link href="css/alejandro-sosa.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
-  <section class="container-contact" id="animatedModal">
+  <section class="container-contact" id="modal-contact">
   <div class="container-contact_modal modal-content">
     <div class="container-contact_modal_header">
       <h2><strong>Alejandro Sosa <i>-</i> <span>Front End Web Developer</span></strong></h2>
-      <i class="close-modal close-animatedModal fa fa-close"></i>
+      <i id="closeModalContact" class="close-modal close-animatedModal fa fa-close"></i>
     </div><!--/header-modal-->
     <div class="container-contact_modal_info">
       <ul>
@@ -29,7 +28,10 @@
           <a href="mainto:AlejandroJSR7@gmail.com">AlejandroJSR7@gmail.com</a>
         </li>
         <li class="fa fa-mobile-phone">
-          304 462 3684
+          +57 304 462 3684
+        </li>
+        <li class="fa fa-mobile-phone">
+          +57 313 254 6791
         </li>
        <li class="fa fa-whatsapp">
           +57 313 254 67 91
@@ -74,12 +76,10 @@
     <div class="main">
       <section id="js-anchorAboutMe">
   <div class="content-big">
-    <h3 name="about-me">Sobre mi.</h3>
+    <h3 name="about-me">Sobre mi</h3>
     <div class="content-medium">
-      <!-- <p>Alejandro is a freelance designer and developer based in Sibaté Colombia. He is an expert web developer and has extensive experience with HTML, CSS, JavaScript, and more.</p> -->
-      <p>Alejandro es en desarrollador web front-end, responsable de implementar elementos visuales e interactivos con los que los usuarios se relacionan a través de su navegador web.</p>
-      <p>Extensa experiencia en crear proyectos web, newsletter, landing page, websites, sistemas Web de comunicación y maquetación de aplicaciones.</p>
-      <p>Actualmente concentra su estudio principalmente en JavaScript, con el ideal de alcanzar un alto nivel de lógica y fluidez que permitan realizar aplicaciones muy bien estructuradas.</p>
+      <!-- <p>I’m a Front end developer with 2 years of experience building scalable web applications with state of the art technology. I have skills in user interface design, research and attention to detail. I'm constantly challenging myself to learn new technologies and skills. <strong>I'm looking forward to join a team from which I can continue to learn and improve.</strong></p> -->
+      <p>Soy desarrollador front end con 2 años de experiencia construyendo aplicaciones web escalables con tecnología de punta. Tengo conocimientos en diseño de interfaces de usuario, investigación y atención al detalle. Me exijo constantemente en el aprendizaje de nuevas tecnologías y habilidades. Deseo unirme a un equipo en el cual pueda seguir aprendiendo y mejorando.</p>
     </div><!--/content-medium-->
   </div><!--/content-big-->
 </section>
@@ -91,37 +91,39 @@
         <ol class="skills">
           <li class="skill skill--high"><i class="fa fa-circle"></i>HTML</li>
           <li class="skill skill--high"><i class="fa fa-circle"></i>CSS</li>
-          <li class="skill skill--practicing"><i class="fa fa-circle"></i>Javascript</li>
           <li class="skill skill--high"><i class="fa fa-circle"></i>Bootstrap</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>Foundation</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>SemanticUI</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>SASS</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>LESS</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>Stylus</li>
-          <li class="skill skill--next"><i class="fa fa-circle"></i>EmberJs</li>
-          <li class="skill skill--medium"><i class="fa fa-circle"></i>Gulp</li>
-          <li class="skill skill--practicing"><i class="fa fa-circle"></i>JQuery</li>
-          <li class="skill skill--practicing"><i class="fa fa-circle"></i>AngularJs</li>
+          <li class="skill skill--high"><i class="fa fa-circle"></i>SASS-Less-Stylus</li>
+          <li class="skill skill--high"><i class="fa fa-circle"></i>Gulp</li>
           <li class="skill skill--high"><i class="fa fa-circle"></i>Wordpress</li>
-          <li class="skill skill--medium"><i class="fa fa-circle"></i>Drupal</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>Joomla</li>
-          <li class="skill skill--medium"><i class="fa fa-circle"></i>Git</li>
+          <li class="skill skill--high"><i class="fa fa-circle"></i>Git</li>
           <li class="skill skill--high"><i class="fa fa-circle"></i>Terminal</li>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>Responsive WD</li>
-          <li class="skill skill--medium"><i class="fa fa-circle"></i>NodeJs</li>
+          <li class="skill skill--high"><i class="fa fa-circle"></i>Resp Web Des</li>
+
+          <li class="skill skill--medium"><i class="fa fa-circle"></i>Javascript</li>
+          <li class="skill skill--medium"><i class="fa fa-circle"></i>JQuery</li>
+          <li class="skill skill--medium"><i class="fa fa-circle"></i>Drupal</li>
+          <li class="skill skill--medium"><i class="fa fa-circle"></i>Wordpress</li>
           <li class="skill skill--medium"><i class="fa fa-circle"></i>Bower</li>
-          <li class="skill skill--next"><i class="fa fa-circle"></i>RequireJs</li>
+
+
+          <li class="skill skill--practicing"><i class="fa fa-circle"></i>AngularJs</li>
+          <li class="skill skill--next"><i class="fa fa-circle"></i>NodeJs</li>
+          
+          <li class="skill skill--next"><i class="fa fa-circle"></i>EmberJs</li>
+          <li class="skill skill--next"><i class="fa fa-circle"></i>Browserify</li>
           <li class="skill skill--next"><i class="fa fa-circle"></i>ReactJs</li>
           <li class="skill skill--next"><i class="fa fa-circle"></i>D3.js</li>
+
           <li class="skill skill--impossible"><i class="fa fa-circle"></i>Nothing</li>
         </ol><!--/skills-->
         <ol class="skills-level">
-          <h5>Level of knowledge</h5>
-          <li class="skill skill--high"><i class="fa fa-circle"></i>High</li>
-          <li class="skill skill--medium"><i class="fa fa-circle"></i>Medium</li>
-          <li class="skill skill--practicing"><i class="fa fa-circle"></i>Practicing</li>
-          <li class="skill skill--next"><i class="fa fa-circle"></i>The next</li>
-          <li class="skill skill--impossible"><i class="fa fa-circle"></i>Impossible</li>
+          <!-- <h5>Level of knowledge</h5> -->
+          <h5>Nivel de conocimiento</h5>
+          <li class="skill skill--high"><i class="fa fa-circle"></i>Alto</li>
+          <li class="skill skill--medium"><i class="fa fa-circle"></i>Medio</li>
+          <li class="skill skill--practicing"><i class="fa fa-circle"></i>Estudiando</li>
+          <li class="skill skill--next"><i class="fa fa-circle"></i>Lo siguiente</li>
+          <li class="skill skill--impossible"><i class="fa fa-circle"></i>Imposible</li>
         </ol><!--/skill-level-->
       </div><!--/component-skills-->
     </div><!--/content-medium-->
@@ -131,9 +133,7 @@
   <div class="content-big">
     <h3 name="portfolio">Portafolio</h3>
     <div class="content-medium">
-      <p class="push-bottom--double">
-        Este portafolio reune la mayoría de proyectos trabajados, proyectos desarrollados solo o en equipo partiendo de un diseño en Adobe Photoshop o Adobe Illustrator, HTML, CSS, jQuery, Javascript, Drupal, Wordpress, Gulp, Sass, Git, y algunos lenguajes o conocimientos se han desarrollado o aprendido en cada proyecto.
-      </p>
+      <p class="push-bottom--double"></p>
 
       <article>
         <div class="project">
@@ -142,11 +142,28 @@
           <div class="image-and-description">
             <div class="image-project">
               <i class="icon-user fa fa-user"></i>
-              <a href="https://github.com/AlejandroJSR7" target="_blank" class="link-description"><img src="images/content/portfolio/github.png" alt="Sabin organization"></a>
+              <a href="https://github.com/AlejandroJSR7" target="_blank" class="link-description"><img src="images/content/portfolio/github.png" alt="Github"></a>
             </div><!--/image-project-->
             <p class="description-project">
               Tengo experiencia trabajando con Software de Control de Versiones GIT, en Github puede encontrar mis trabajos, repositorios de contribución y de estudio.
               <a href="https://github.com/AlejandroJSR7" target="_blank" class="link-description">Ir al sitio web.</a>
+            </p><!--/description-project-->
+          </div><!--/image-description-->
+        </div><!--/project-->
+      </article>
+
+      <article>
+        <div class="project">
+          <h2>Spotify Preview</h2>
+          <h4><a href="http://www.makeitreal.camp/u/AlejandroSosa">Make it Real</a></h4>
+          <div class="image-and-description">
+            <div class="image-project">
+              <i class="icon-user fa fa-user"></i>
+              <a href="https://alejandrojsr7.github.io/spotify-preview/" target="_blank" class="link-description"><img src="images/content/portfolio/spotify-preview.png" alt="Spotify Preview"></a>
+            </div><!--/image-project-->
+            <p class="description-project">
+              Proyecto de Make it Real en el cual a través del <strong>API</strong> de <strong>Spotify</strong> podemos escuchar un Preview de las canciones que querramos, o acceder a la página de spotify de los artistas, albunes o playlist que deseemos.
+              <a href="https://alejandrojsr7.github.io/spotify-preview/" target="_blank" class="link-description">Ir al sitio web.</a>
             </p><!--/description-project-->
           </div><!--/image-description-->
         </div><!--/project-->
@@ -695,11 +712,11 @@
 </section>
     </div><!--/main-->
     <a href="#" class="scrollToTop fa fa-hand-o-up"></a>
-    <a href="#animatedModal" class="js-openModalContact contact-icon fa fa-phone-square"></a>
+    <a href="#" id="openModalContact" class="contact-icon fa fa-phone-square"></a>
     <a href="#js-anchorAboutMe" class="scrollDown fa fa-angle-double-down"></a>
   </div><!--/generalContainer-->
+
   <script src="js/jquery.min.js"></script>
-  <script src="js/animatedModal.min.js"></script>
   <script src="js/alejandro-sosa.js"></script>
 </body>
 </html>
