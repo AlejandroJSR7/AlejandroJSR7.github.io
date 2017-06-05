@@ -315,6 +315,27 @@ ol {
 .main article {
   margin-bottom: 30px;
 }
+.main .content-medium .row:before,
+.main .content-medium .row:after {
+  clear: both;
+  content: "";
+  display: block;
+  width: 100%;
+}
+@media (min-width: 760px) {
+  .main article {
+    float: left;
+    padding-right: 20px;
+    width: 49%;
+    min-height: 470px;
+  }
+  .project .image-and-description .image-project {
+    margin-bottom: 20px;
+  }
+  .project .image-and-description .description-project {
+    max-width: 100%;
+  }
+}
 .main h3 {
   font-size: 3.2rem;
   font-weight: 600;
