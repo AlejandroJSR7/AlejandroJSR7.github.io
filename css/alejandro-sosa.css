@@ -59,13 +59,70 @@ ol {
   width: 85%;
 }
 .hero {
-  background-image: url("https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=1&auto=format&crop=entropy&fit=crop&w=1280&h=853&q=80");
-  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-image: url("../images/design/hero-banner/pattern.png");  
+  background-image: url("../images/design/hero-banner/hero-banner.jpeg");
+  background-image: url("../images/design/hero-banner/jf-brou-358069.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  overflow: hidden;
+  box-shadow: 0px -15px 5px -12px white inset;
+  height: 62.5vh;
   margin-bottom: 20px;
+  position: relative;
+}
+.hero__avatar {
+  background-image: url("../images/design/hero-banner/23116804_507630062932351_8062241262674115243_o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  bottom: -75px;
+  height: 150px;
+  left: 20px;
+  margin-left: 0;
+  padding: 10px;
+  position: absolute;
+  width: 150px;
+}
+@media (min-width: 768px) {
+  .hero__avatar {
+    left: 50%;
+    margin-left: -50px;
+  }
+}
+@media (min-width: 1920px) {
+  .hero__avatar {
+    bottom: -100px;
+    height: 200px;
+    margin-left: -100px;
+    width: 200px;
+  }
+}
+.hero__twitter {
+  background-attachment: fixed;
+  background-image: url("../images/design/hero-banner/jf-brou-358069.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  bottom: -25px;
+  display: block;
+  font-size: 32px;
+  height: 50px;
+  left: calc(20px + 170px);
+  position: absolute;
+  text-align: center;
+  width: 50px;
+}
+.hero__twitter i {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .hero__twitter {
+    left: calc(50% + 120px);
+  }
 }
 .hero .welcome {
   left: 50%;
@@ -131,8 +188,29 @@ ol {
     text-align: right;
   }
 }
+a.hero__background--copyright {
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  height: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  padding: 4px 0 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  top: 15px;
+  transition: opacity 0.5s ease;
+  width: 20px;
+}
+a.hero__background--copyright:hover {
+  opacity: 1;
+}
 .main section {
   padding-top: 50px;
+}
+.main section.section--about-me {
+  padding-top: 100px;
 }
 .main article {
   margin-bottom: 30px;
@@ -147,9 +225,9 @@ ol {
 @media (min-width: 760px) {
   .main article {
     float: left;
+    min-height: 425px;
     padding-right: 20px;
     width: 49%;
-    min-height: 425px;
   }
   .project .image-and-description .image-project {
     margin-bottom: 20px;
@@ -267,8 +345,8 @@ ol {
   font-weight: 700;
   line-height: 1em;
   margin: 0 0 0.5rem;
-  text-transform: uppercase;
   min-height: 70px;
+  text-transform: uppercase;
 }
 .project h2 small {
   font-size: 1rem;
@@ -427,16 +505,6 @@ ol {
     right: 20px;
   }
 }
-@media (min-width: 768px) {
-  .scrollToTop {
-    right: 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .scrollToTop {
-    right: 30px;
-  }
-}
 @media (min-width: 1024px) {
   .scrollToTop {
     right: 30px;
@@ -448,17 +516,31 @@ ol {
   }
 }
 .scrollDown {
-  bottom: 70px;
+  bottom: 20px;
   color: #000;
   font-size: 4rem;
-  left: 50%;
   line-height: 1.1em;
   position: absolute;
+  right: 10px;
   text-align: center;
-  transform: translateX(-50%);
   transition: color linear 0.2s;
   vertical-align: top;
   z-index: 500;
+}
+@media (min-width: 768px) {
+  .scrollDown {
+    right: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .scrollDown {
+    right: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .scrollDown {
+    right: 50px;
+  }
 }
 .scrollDown:hover {
   color: #fff;
