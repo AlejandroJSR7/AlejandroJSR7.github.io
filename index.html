@@ -143,7 +143,7 @@
                       <p>{{project.project_description}}</p>
                       <ul ng-if="project.project_tags.length > 0">
                         <li ng-repeat="tag in project.project_tags">
-                          {{$first ? '' : $last ? ' and ' : ', '}}{{tag}}
+                          {{$first ? ' ' : $last ? ', and ' : ', '}} {{tag}}
                         </li>
                       </ul>
                       <a href="{{project.project_link_url}}" target="_blank" class="link-description">Go to project</a>

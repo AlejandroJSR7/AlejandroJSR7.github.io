@@ -49,10 +49,10 @@
       "team_link_url": "http://www.makeitreal.camp/u/AlejandroSosa"
     },
     {
-      "id": 4,
+      "id": 0,
       "project_name": "Jaguar XE",
       "project_name_desc": "",
-      "project_description": "Landing page",
+      "project_description": "I participated in its full development from design to website.",
       "project_image_url": "jaguar-xe.png",
       "project_link_url": "http://alejandrojsr7.github.io/jaguar-xe/",
       "project_developed_on_team": false,
