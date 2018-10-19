@@ -63,9 +63,7 @@ ol {
 }
 .hero {
   background-attachment: fixed;
-  /* background-image: url("../images/design/hero-banner/pattern.png"); */
-  /* background-image: url("../images/design/hero-banner/hero-banner.jpeg"); */
-  background-image: url("../images/design/hero-banner/jf-brou-358069.jpg");
+  background-image: url("../images/design/hero-banner/fotis-fotopoulos-790373-unsplash.jpg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +102,7 @@ ol {
 }
 .hero__twitter {
   background-attachment: fixed;
-  background-image: url("../images/design/hero-banner/pattern.png");
+  background-image: url("../images/design/hero-banner/fotis-fotopoulos-790373-unsplash.jpg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
