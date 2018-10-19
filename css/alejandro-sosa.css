@@ -195,9 +195,9 @@ a.hero__background--copyright {
   opacity: 0.75;
   padding: 4px 0 0;
   position: absolute;
-  right: 15px;
+  left: 15px;
   text-align: center;
-  top: 15px;
+  bottom: 15px;
   transition: opacity 0.5s ease;
   width: 20px;
 }
@@ -340,8 +340,7 @@ a.hero__background--copyright:hover {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1em;
-  margin: 0 0 0.5rem;
-  min-height: 70px;
+  margin: 0 0 1rem;
   text-transform: uppercase;
 }
 .project h2 small {
@@ -390,30 +389,43 @@ a.hero__background--copyright:hover {
 .project .image-and-description .description-project {
   display: inline-block;
   margin: 0px;
+  font-family: 16px;
   min-height: 155px;
   padding-bottom: 4rem;
   position: relative;
   vertical-align: top;
   width: 500px;
 }
+.project .image-and-description .description-project ul {
+  margin: 0;
+  padding: 0;
+}
+.project .image-and-description .description-project li {
+  color: inherit;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  /* margin-right: 5px; */
+}
 .project .image-and-description .description-project a.link-description {
   background-color: #ff5d55;
+  border-radius: 1px;
   border: 1px solid #ff5d55;
   bottom: 0;
-  border-radius: 2px;
   color: #fff;
   display: inline;
+  font-size: 16px;
   padding: 2px 10px;
   position: absolute;
   right: 0;
-  transition: all linear 0.1s;
   text-align: right;
-  width: auto;
+  transition: all linear 0.1s;
 }
 .project .image-and-description .description-project a.link-description:hover {
   background: #fff;
   border: 1px solid #ff5d55;
   color: #ff5d55;
+  text-decoration: none;
 }
 @media (max-width: 360px) {
   .project h2 {
