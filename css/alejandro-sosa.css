@@ -19,9 +19,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a:visited {
-  color: #4dd7fd;
-}
 ol {
   padding: 0;
 }
@@ -67,7 +64,7 @@ ol {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px -15px 5px -12px white inset;
+  box-shadow: 0px -10px 50px -10px white inset;
   height: 45.5vh;
   margin-bottom: 20px;
   position: relative;
@@ -77,7 +74,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 100%;
-  border: 5px solid #fff;
+  border: 2px solid #fff;
   bottom: -75px;
   height: 150px;
   left: 20px;
@@ -107,7 +104,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 100%;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   bottom: -25px;
   display: block;
   font-size: 32px;
@@ -210,9 +207,9 @@ a.hero__background--copyright:hover {
 .main section {
   padding-top: 50px;
 }
-.main section.section--about-me {
+/* .main section.section--about-me {
   padding-top: 100px;
-}
+} */
 .main article {
   margin-bottom: 30px;
 }
@@ -238,8 +235,8 @@ a.hero__background--copyright:hover {
   }
 }
 .main h3 {
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 400;
   margin: 0;
 }
 .main p {
@@ -551,23 +548,25 @@ a.hero__background--copyright:hover {
   color: #ff5d55;
 }
 .contact-icon {
-  background-color: #fff;
-  bottom: 70px;
-  color: #ff5d55;
-  font-size: 4rem;
+  background-color: black;
+  border-radius: 2px;
+  top: 20px;
+  box-shadow: 0 0 5px 0px #000;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 18px;
   line-height: 0.6em;
+  padding: 7px 10px;
   position: fixed;
-  right: 10px;
+  right: 30px;
   text-align: center;
+  text-transform: uppercase;
   vertical-align: top;
   z-index: 500;
 }
 .contact-icon:hover {
-  color: #4dd7fd;
+  color: #ffffff;
   text-decoration: none;
-}
-.contact-icon:visited {
-  color: #ff5d55;
 }
 @media (min-width: 768px) {
   .contact-icon {

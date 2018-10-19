@@ -3,18 +3,25 @@ $(document).ready(function(){
   var modal = document.getElementById("modal-contact");
   var btnOpen = document.getElementById("openModalContact");
   var btnClose = document.getElementById("closeModalContact");
+  var bodyPage = document.querySelector(".js-body");
 
   btnOpen.onclick = function () {
     modal.style.display = "block";
+    btnOpen.style.display = "none";
+    bodyPage.style.overflow = "hidden";
   }
 
   btnClose.onclick = function () {
     modal.style.display = "none";
+    btnOpen.style.display = "block";
+    bodyPage.style.overflow = "inherit";
   }
 
   window.onclick = function () {
     if (event.target == modal) {
       modal.style.display = "none";
+      btnOpen.style.display = "block";
+      bodyPage.style.overflow = "inherit";
     }
   }
 
