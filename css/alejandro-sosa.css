@@ -25,6 +25,9 @@ a:visited {
 ol {
   padding: 0;
 }
+.hide {
+  display: none;
+}
 .content-big {
   margin: 0 auto;
   width: 1200px;
@@ -60,14 +63,14 @@ ol {
 }
 .hero {
   background-attachment: fixed;
-  background-image: url("../images/design/hero-banner/pattern.png");  
-  /* background-image: url("../images/design/hero-banner/hero-banner.jpeg");
-  background-image: url("../images/design/hero-banner/jf-brou-358069.jpg"); */
+  /* background-image: url("../images/design/hero-banner/pattern.png"); */
+  /* background-image: url("../images/design/hero-banner/hero-banner.jpeg"); */
+  background-image: url("../images/design/hero-banner/jf-brou-358069.jpg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px -15px 5px -12px white inset;
-  height: 62.5vh;
+  height: 45.5vh;
   margin-bottom: 20px;
   position: relative;
 }
@@ -172,10 +175,10 @@ ol {
 }
 @media (min-width: 1024px) {
   .hero .welcome .title-web h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
   .hero .welcome .title-web h1 strong {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: right;
   }
 }
