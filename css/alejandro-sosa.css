@@ -221,11 +221,9 @@ a.hero__background--copyright:hover {
   width: 100%;
 }
 @media (min-width: 760px) {
-  .main article {
-    float: left;
-    min-height: 425px;
-    padding-right: 20px;
-    width: 49%;
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
   }
   .project .image-and-description .image-project {
     margin-bottom: 20px;
